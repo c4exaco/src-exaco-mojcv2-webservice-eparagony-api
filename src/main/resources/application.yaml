@@ -1,0 +1,28 @@
+spring:
+  cloud:
+    gcp:
+      config:
+        enabled: on
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.data.redis.RedisRepositoriesAutoConfiguration
+  config:
+    import: "sm://"
+  application:
+    name: eparagonyApi
+management:
+  tracing:
+    sampling:
+      probability: 1
+  endpoints:
+    web:
+      exposure:
+        include: health, info, prometheus
+  endpoint:
+    health:
+      show-details: always
+  metrics:
+    tags:
+      application: ${spring.application.name}
+server:
+  forward-headers-strategy: native

@@ -1,0 +1,196 @@
+{
+  "2000000534213": {
+    "id": "27655463287929640547242386378",
+    "version": 0,
+    "createDate": 1499205666386,
+    "updateDate": 1499205668218,
+    "description": "Białe szparagi są grubsze od zielonych, i posiadają twarde łyko, które należy obrać przed spożyciem (w związku z tym, należy wybierać szparagi o średniej grubości). Najlepiej zrobić to obieraczką do warzyw. Podczas obierania białych szparagów kierujemy się od góry do dołu, zaczynając od główki. Należy zrobić to wyjątkowo dokładnie, by pozbyć się całej włóknistej otoczki.\u000bPodobnie jak w przypadku zielonych szparagów, także białym trzeba odciąć zdrewniałą końcówkę. Podczas kupowania tych warzyw należy zwrócić szczególną uwagę na ich główki. Ważne aby były one ściśle i zamknięte. Natomiast końcówki szparagów powinny być wilgotne, a ich struktura jędrna i sprężysta. Świeżość szparagów możemy sprawdzić na dwa sposoby: po ściśnięciu końcówki, powinien wypłynąć sok, a przy pocieraniu dwóch szparagów o siebie powinniśmy słyszeć charakterystyczne skrzypienie.",
+    "name": "Szparagi białe pęczek",
+    "publishStatus": "NONPUBLIC",
+    "displayName": "Szparagi białe pęczek",
+    "descriptionAttributeSets": [
+      {
+        "name": "Dane",
+        "uuid": "dane",
+        "descriptionAttributes": [
+          {
+            "type": "string",
+            "attributeId": "27235665835145943196862097915",
+            "attribute": {
+              "type": "string",
+              "id": "27235665835145943196862097915",
+              "name": "Składniki",
+              "uuid": "84",
+              "rich": false
+            },
+            "value": "szparagi białe 100%.\n\u003cbr\u003e\u003cbr\u003eOznakowanie alergenów: wielkimi literami",
+            "showOnList": false,
+            "showOnDetails": true,
+            "new": false,
+            "name": "Składniki"
+          },
+          {
+            "type": "string",
+            "attributeId": "27235665927379663565409856006",
+            "attribute": {
+              "type": "string",
+              "id": "27235665927379663565409856006",
+              "name": "Wartości odżywcze",
+              "uuid": "85",
+              "rich": true
+            },
+            "value": "\u003ctable\u003e\n    \u003cthead\u003e\n    \u003ctr\u003e\n        \u003cth\u003e\u003c/th\u003e\n        \u003cth\u003ew 100 g\u003c/th\u003e\n    \u003c/tr\u003e\n    \u003c/thead\u003e\n    \u003ctbody\u003e\n    \u003ctr\u003e\n        \u003ctd\u003eWartość energetyczna\u003c/td\u003e\n        \u003ctd\u003e77 kJ\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd\u003eWartość energetyczna\u003c/td\u003e\n        \u003ctd\u003e18 kcal\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd\u003eTłuszcz\u003c/td\u003e\n        \u003ctd\u003e0,5 g\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd\u003ew tym kwasy tłuszczowe nasycone\u003c/td\u003e\n        \u003ctd\u003e0 g\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd\u003eWęglowodany\u003c/td\u003e\n        \u003ctd\u003e3,7 g\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd\u003ew tym cukry\u003c/td\u003e\n        \u003ctd\u003e0,5 g\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd\u003eBłonnik\u003c/td\u003e\n        \u003ctd\u003e1,9 g\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd\u003eBiałko\u003c/td\u003e\n        \u003ctd\u003e1,5 g\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003ctr\u003e\n        \u003ctd\u003eSól\u003c/td\u003e\n        \u003ctd\u003e0,01 g\u003c/td\u003e\n    \u003c/tr\u003e\n    \u003c/tbody\u003e\n\u003c/table\u003e",
+            "showOnList": false,
+            "showOnDetails": true,
+            "new": false,
+            "name": "Wartości odżywcze"
+          },
+          {
+            "type": "string",
+            "attributeId": "27235665798252455049442994678",
+            "attribute": {
+              "type": "string",
+              "id": "27235665798252455049442994678",
+              "name": "Dane producenta",
+              "uuid": "15",
+              "rich": true
+            },
+            "value": "\u003cp\u003e\n    \u003cb\u003eAdres producenta:\u003c/b\u003e\u003cbr\u003e Carrefour Polska Sp. z o.o.\u003cbr\u003eul. Targowa 72,\u003cbr\u003e03-734 Warszawa\n\u003c/p\u003e\n",
+            "showOnList": false,
+            "showOnDetails": true,
+            "new": false,
+            "name": "Dane producenta"
+          },
+          {
+            "type": "string",
+            "attributeId": "27235665872039431344281201151",
+            "attribute": {
+              "type": "string",
+              "id": "27235665872039431344281201151",
+              "name": "Przechowywanie",
+              "uuid": "20",
+              "rich": false
+            },
+            "value": "Przechowywać w suchym i chłodnym miejscu - najlepiej w lodówce.",
+            "showOnList": false,
+            "showOnDetails": true,
+            "new": false,
+            "name": "Przechowywanie"
+          },
+          {
+            "type": "string",
+            "attributeId": "27630081767122456723156363118",
+            "attribute": {
+              "type": "string",
+              "id": "27630081767122456723156363118",
+              "name": "Informacje dodatkowe",
+              "uuid": "additional-info",
+              "rich": false
+            },
+            "value": "\u003cb\u003eNazwa produktu uregulowana prawnie:\u003c/b\u003e Szparagi białe pęczek\u003cbr\u003e\n",
+            "showOnList": false,
+            "showOnDetails": true,
+            "new": false,
+            "name": "Informacje dodatkowe"
+          }
+        ],
+        "uuidChangeable": false
+      }
+    ],
+    "images": [
+      {
+        "name": "szparagi-biale-peczek-j75f8s.jpg",
+        "showOnList": true,
+        "showOnDetails": true,
+        "width": 1000,
+        "height": 667,
+        "new": false,
+        "uuidChangeable": true
+      }
+    ],
+    "product": {
+      "id": "27514194450911140024868953511",
+      "name": "SZPARAGI BIALE PECZEK SZT",
+      "code": "2000000534213",
+      "sizeUnit": "ITEM",
+      "size": 1.0,
+      "sellUnit": "KG",
+      "sizeWithUnitString": "1 szt."
+    },
+    "sequence": 0,
+    "accessType": "ALL",
+    "viewType": "ALL",
+    "productCategories": [
+      {
+        "category": {
+          "id": "27573972379460501840974655230",
+          "name": "Warzywa sezonowe",
+          "parent": {
+            "id": "27573971826058179629688106655",
+            "name": "Warzywa",
+            "parent": {
+              "id": "27573969760022843374218325629",
+              "name": "Owoce, warzywa, zioła",
+              "files": {
+                "board": "owoce-warzywa-ziola-j8u643.svg",
+                "mcc-icon": "owoce-warzywa-ziola-tdbe14.png",
+                "ec4-icon": "owoce-warzywa-ziola-cvthge.svg",
+                "web-icon": "owoce-warzywa-ziola-v2l8uu.svg"
+              }
+            }
+          }
+        },
+        "sequence": 0
+      },
+      {
+        "category": {
+          "id": "27573971826058179629688106655",
+          "name": "Warzywa",
+          "parent": {
+            "id": "27573969760022843374218325629",
+            "name": "Owoce, warzywa, zioła",
+            "files": {
+              "board": "owoce-warzywa-ziola-j8u643.svg",
+              "mcc-icon": "owoce-warzywa-ziola-tdbe14.png",
+              "ec4-icon": "owoce-warzywa-ziola-cvthge.svg",
+              "web-icon": "owoce-warzywa-ziola-v2l8uu.svg"
+            }
+          }
+        },
+        "sequence": 0
+      },
+      {
+        "category": {
+          "id": "27573969760022843374218325629",
+          "name": "Owoce, warzywa, zioła",
+          "files": {
+            "board": "owoce-warzywa-ziola-j8u643.svg",
+            "mcc-icon": "owoce-warzywa-ziola-tdbe14.png",
+            "ec4-icon": "owoce-warzywa-ziola-cvthge.svg",
+            "web-icon": "owoce-warzywa-ziola-v2l8uu.svg"
+          }
+        },
+        "sequence": 0
+      }
+    ],
+    "slug": "szparagi-biale-peczek",
+    "url": "owoce-warzywa-ziola/warzywa/warzywa-sezonowe/szparagi-biale-peczek",
+    "dontSearchSubstitutes": false,
+    "defaultCategoryName": "Warzywa sezonowe",
+    "defaultCategorySlug": "warzywa-sezonowe",
+    "active": false,
+    "defaultCategoryId": "27573972379460501840974655230",
+    "searchSubstitutes": true,
+    "syncSearchMirroring": false,
+    "defaultImage": {
+      "name": "szparagi-biale-peczek-j75f8s.jpg",
+      "showOnList": true,
+      "showOnDetails": true,
+      "width": 1000,
+      "height": 667,
+      "new": false,
+      "uuidChangeable": true
+    }
+  }
+}
+

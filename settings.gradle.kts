@@ -1,0 +1,1 @@
+rootProject.name = "src-exaco-mojcv2-webservice-eparagony-api"

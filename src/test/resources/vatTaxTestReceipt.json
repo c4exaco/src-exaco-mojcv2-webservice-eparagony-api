@@ -1,0 +1,149 @@
+[
+  {
+    "lineNumber" : 3,
+    "articleName" : "RDF PIEPRZ MIELONY Z",
+    "articleId" : "237415",
+    "articleIndex" : "1424786",
+    "amount" : "29.99",
+    "quantity" : "1.000",
+    "basePrice" : "29.99",
+    "evidPrice" : "29.99",
+    "salePrice" : "29.99",
+    "discountAmount" : "0.00",
+    "tax" : {
+      "value" : "8.00",
+      "symbol" : "B"
+    },
+    "unit" : "szt",
+    "inputType" : "MANUAL",
+    "barcode" : "3560070738557",
+    "returnedQuantity" : "0.000",
+    "vat" : "2.22"
+  },
+  {
+    "lineNumber" : 5,
+    "articleName" : "NAPÓJ ENERG BLACK 0,",
+    "articleId" : "87183",
+    "articleIndex" : "518188",
+    "amount" : "1.99",
+    "quantity" : "1.000",
+    "basePrice" : "1.99",
+    "evidPrice" : "1.99",
+    "salePrice" : "1.99",
+    "discountAmount" : "0.00",
+    "tax" : {
+      "value" : "23.00",
+      "symbol" : "A"
+    },
+    "unit" : "szt",
+    "inputType" : "MANUAL",
+    "barcode" : "5900552014713",
+    "returnedQuantity" : "0.000",
+    "vat" : "0.37"
+  },
+  {
+    "lineNumber" : 1,
+    "articleName" : "RDF PIEPRZ MIELONY Z",
+    "articleId" : "237415",
+    "articleIndex" : "1424786",
+    "amount" : "539.82",
+    "quantity" : "18.000",
+    "basePrice" : "29.99",
+    "evidPrice" : "29.99",
+    "salePrice" : "29.99",
+    "discountAmount" : "0.00",
+    "tax" : {
+      "value" : "8.00",
+      "symbol" : "B"
+    },
+    "unit" : "szt",
+    "inputType" : "MANUAL",
+    "barcode" : "3560070738557",
+    "returnedQuantity" : "0.000",
+    "vat" : "2.22"
+  },
+  {
+    "lineNumber" : 4,
+    "articleName" : "NAPÓJ ENERG BLACK 0,",
+    "articleId" : "87183",
+    "articleIndex" : "518188",
+    "amount" : "1.99",
+    "quantity" : "1.000",
+    "basePrice" : "1.99",
+    "evidPrice" : "1.99",
+    "salePrice" : "1.99",
+    "discountAmount" : "0.00",
+    "tax" : {
+      "value" : "23.00",
+      "symbol" : "A"
+    },
+    "unit" : "szt",
+    "inputType" : "MANUAL",
+    "barcode" : "5900552014713",
+    "returnedQuantity" : "0.000",
+    "vat" : "0.37"
+  },
+  {
+    "lineNumber" : 7,
+    "articleName" : "JOG 7ZBOZ MUSLI 200G",
+    "articleId" : "278895",
+    "articleIndex" : "1089661",
+    "amount" : "2.79",
+    "quantity" : "1.000",
+    "basePrice" : "2.79",
+    "evidPrice" : "2.79",
+    "salePrice" : "2.79",
+    "discountAmount" : "0.00",
+    "tax" : {
+      "value" : "5.00",
+      "symbol" : "C"
+    },
+    "unit" : "szt",
+    "inputType" : "MANUAL",
+    "barcode" : "5900197019135",
+    "returnedQuantity" : "0.000",
+    "vat" : "0.13"
+  },
+  {
+    "lineNumber" : 2,
+    "articleName" : "RDF PIEPRZ MIELONY Z",
+    "articleId" : "237415",
+    "articleIndex" : "1424786",
+    "amount" : "29.99",
+    "quantity" : "1.000",
+    "basePrice" : "29.99",
+    "evidPrice" : "29.99",
+    "salePrice" : "29.99",
+    "discountAmount" : "0.00",
+    "tax" : {
+      "value" : "8.00",
+      "symbol" : "B"
+    },
+    "unit" : "szt",
+    "inputType" : "MANUAL",
+    "barcode" : "3560070738557",
+    "returnedQuantity" : "0.000",
+    "vat" : "2.22"
+  },
+  {
+    "lineNumber" : 6,
+    "articleName" : "JOG 7ZBOZ MUSLI 200G",
+    "articleId" : "278895",
+    "articleIndex" : "1089661",
+    "amount" : "2.79",
+    "quantity" : "1.000",
+    "basePrice" : "2.79",
+    "evidPrice" : "2.79",
+    "salePrice" : "2.79",
+    "discountAmount" : "0.00",
+    "tax" : {
+      "value" : "5.00",
+      "symbol" : "C"
+    },
+    "unit" : "szt",
+    "inputType" : "MANUAL",
+    "barcode" : "5900197019135",
+    "returnedQuantity" : "0.000",
+    "vat" : "0.13"
+  }
+]

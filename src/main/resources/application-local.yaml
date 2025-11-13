@@ -1,0 +1,17 @@
+server:
+  port: 4445
+#logging:
+#  level:
+#    # Domyślny poziom logowania dla całej aplikacji
+#    root: INFO
+#    # Logger dla Twojego filtra logującego HTTP request/response
+#    pl.exaco.customer.filter.LoggingWebFilter: DEBUG
+#    # Loggery dla komponentów WebFlux (Netty, WebClient) dla szczegółów HTTP
+#    reactor.netty: DEBUG
+#    org.springframework.web.reactive.function.client: DEBUG
+#    # Loggery dla Redis i Jacksona (do debugowania serializacji)
+#    org.springframework.data.redis: TRACE # Ustaw na TRACE dla bardzo szczegółowych logów serializacji
+#    com.fasterxml.jackson: TRACE # Ustaw na TRACE dla bardzo szczegółowych logów serializacji
+#    io.lettuce.core: TRACE
+#    io.netty: TRACE
+#    org.springframework.cache: TRACE
