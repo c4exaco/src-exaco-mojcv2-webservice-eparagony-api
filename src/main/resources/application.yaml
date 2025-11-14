@@ -1,6 +1,7 @@
 spring:
   cloud:
     gcp:
+      project-id: mojcv2-labo
       config:
         enabled: on
   autoconfigure:

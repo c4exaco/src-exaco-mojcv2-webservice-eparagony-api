@@ -69,8 +69,7 @@ class ReceiptApiController(private val receiptApiService: ReceiptApiService) {
     )
     fun getByBarcode(@RequestHeader("Auth-Token") authToken: String?,
                      @RequestHeader("CustomerId", required = true) customerId: String,
-                     @RequestParam receiptBarcode: String,
-                     @RequestParam loyaltyCardNumber: String): ReceiptApiModel? {
+                     @RequestParam receiptBarcode: String): ReceiptApiModel? {
         return receiptApiService.getByBarcode(receiptBarcode, customerId)
     }
 
@@ -84,7 +83,7 @@ class ReceiptApiController(private val receiptApiService: ReceiptApiService) {
             ApiResponse(responseCode = "401", description = "AUTH_ERROR")
     )
     fun getShopList(@RequestHeader("Auth-Token") authToken: String?,
-                    @RequestHeader("CustomerId", required = true) customerId: String,
+                    @RequestHeader("CustomerId", required = false) customerId: String?,
                     @RequestParam loyaltyCardNumber: String): Set<ReceiptBasicStore> {
         return receiptApiService.getShopList(loyaltyCardNumber)
     }

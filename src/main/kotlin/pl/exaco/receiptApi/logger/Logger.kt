@@ -1,9 +1,10 @@
 package pl.exaco.receiptApi.logger
 
-import mu.KotlinLogging
+import org.slf4j.LoggerFactory
+
 
 class Logger {
     companion object {
-        val logger = KotlinLogging.logger {}
+        val logger = LoggerFactory.getLogger(Logger::class.java)
     }
 }
