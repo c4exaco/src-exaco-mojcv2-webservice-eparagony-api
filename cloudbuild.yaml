@@ -12,13 +12,6 @@ steps:
       - "gradle"
       - "bootJar"
       #- "--no-daemon"
-  - name: gcr.io/cloud-builders/gcloud
-    entrypoint: "bash"
-    args:
-      [
-        "-c",
-        "ls -R",
-      ]
   - name: docker
     args:
       - build
