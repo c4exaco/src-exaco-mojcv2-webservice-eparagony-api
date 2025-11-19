@@ -1,0 +1,58 @@
+steps:
+  - name: gcr.io/cloud-builders/gcloud
+    entrypoint: "bash"
+    args:
+      [
+        "-c",
+        "gcloud secrets versions access latest --secret=tf-secret-key --format='get(payload.data)' | tr '_-' '/+' | base64 -d > secret.json",
+      ]
+  - id: buildjar
+    name: gradle:8.7-jdk21
+    args:
+      - "gradle"
+      - "bootJar"
+      #- "--no-daemon"
+  - name: docker
+    args:
+      - build
+      - "-t"
+      - >-
+        $_REGION-docker.pkg.dev/$_PROJECT_ID/$_REPOSITORY_NAME/$_IMAGE_NAME:$_COMMIT_SHA
+      - "-f"
+      - DockerFile_cb
+      - .
+    id: build
+  - name: 'gcr.io/cloud-builders/docker'
+    args:
+      - push
+      - >-
+        $_REGION-docker.pkg.dev/$_PROJECT_ID/$_REPOSITORY_NAME/$_IMAGE_NAME:$_COMMIT_SHA
+    id: push
+  - name: gcr.io/cloud-builders/gcloud
+    entrypoint: "bash"
+    args:
+      - "-c"
+      - >-
+        curl -X POST -H "Content-type: application/json" "https://cloudbuild.googleapis.com/v1/projects/$_PROJECT_ID/locations/$_REGION/triggers/$_TRIGGER_NAME:webhook?key=$$APIKEY&secret=$$SECRETVALUE&trigger=$_TRIGGER_NAME&projectId=$_PROJECT_ID" -d "{}"
+    secretEnv:
+      - APIKEY
+      - SECRETVALUE
+options:
+  substitutionOption: ALLOW_LOOSE
+  logging: CLOUD_LOGGING_ONLY
+substitutions:
+  _TRIGGER_NAME: "pl-tr-IaC"
+  _COMMIT_SHA: "$COMMIT_SHA"
+  _REGION: "europe-west4"
+  _PROJECT_ID: "mojcv2-labo"
+  _REPOSITORY_NAME: "pl-artifact-repo-mojcv2-labo-europe-west4"
+  _IMAGE_NAME: "src-exaco-mojcv2-webservice-eparagony-api"
+availableSecrets:
+  secretManager:
+    - versionName: "projects/$_PROJECT_ID/secrets/cloudbuild-webhook-secret/versions/latest"
+      env: "SECRETVALUE"
+    - versionName: "projects/$_PROJECT_ID/secrets/cloudbuild-api-key/versions/latest"
+      env: "APIKEY"
+images:
+  - >-
+    $_REGION-docker.pkg.dev/$_PROJECT_ID/$_REPOSITORY_NAME/$_IMAGE_NAME:$_COMMIT_SHA
