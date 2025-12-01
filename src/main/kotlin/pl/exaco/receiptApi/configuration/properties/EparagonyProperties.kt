@@ -1,7 +1,9 @@
 package pl.exaco.receiptApi.configuration.properties
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonProperty
 
+@JsonIgnoreProperties(ignoreUnknown = true)
 class EparagonyProperties(
     val api: Api
 )
