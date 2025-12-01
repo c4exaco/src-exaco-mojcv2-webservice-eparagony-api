@@ -25,5 +25,8 @@ management:
   metrics:
     tags:
       application: ${spring.application.name}
+  health:
+    mongo:
+      enabled: false
 server:
   forward-headers-strategy: native
